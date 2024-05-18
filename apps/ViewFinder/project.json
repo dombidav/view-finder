@@ -4,12 +4,13 @@
   "projectType": "application",
   "prefix": "app",
   "sourceRoot": "apps/ViewFinder/src",
-  "tags": [],
+  "tags": ["type:app", "scope:fe"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
+        "plugins": ["apps/ViewFinder/plugins/env-var-plugin.js"],
         "outputPath": "dist/apps/ViewFinder",
         "index": "apps/ViewFinder/src/index.html",
         "browser": "apps/ViewFinder/src/main.ts",

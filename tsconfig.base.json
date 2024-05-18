@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@dombidav/viewfinder-defs": ["libs/viewfinder-defs/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
