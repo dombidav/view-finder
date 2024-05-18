@@ -1,0 +1,9 @@
+{
+  "name": "ViewFinder-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/ViewFinder-e2e/src",
+  "implicitDependencies": ["ViewFinder"],
+  "// targets": "to see all targets run: nx show project ViewFinder-e2e --web",
+  "targets": {}
+}
